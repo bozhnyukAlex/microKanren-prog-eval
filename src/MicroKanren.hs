@@ -10,6 +10,9 @@ import Control.Monad (guard)
 import Data.Maybe (fromMaybe)
 import Debug.Trace (trace)
 
+
+
+
 newtype Var = Var Int deriving (Eq, Show)
 
 type Substitution = [(Var, Term)]
